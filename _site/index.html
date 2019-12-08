@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Zapier Netlify + Googles Sheets Test</title>
+</head>
+<body>
+    <header>
+        <div class="header-info-wrapper">
+            <h2 class="font-weight-bold">Zapier: Google Sheets + Netlify</h2>
+            <p>Testing some of Netlifys' features</p>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row mt-2 mb-2">
+    
+    <div class="col-lg-7 offset-lg-3">    
+        <form name="test" method="POST" data-netlify="true">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" placeholder="Johnny Truant">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="navidsonrecord@house.com">
+            </div>
+        
+            <div class="form-group">
+                <label for="text">Comment</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+        </div>
+    </main>
+
+</body>
+<script src="main.js"></script>
+</html>
